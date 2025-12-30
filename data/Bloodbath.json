@@ -1,0 +1,24 @@
+{
+    "id": 10565740,
+    "name": "Bloodbath",
+    "author": "Riot",
+    "creators": ["Riot"],
+    "verifier": "Riot",
+    "verification": "https://www.youtube.com/watch?v=twTw4fjT0ik&t=12s",
+    "percentToQualify": "75",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "GDSilver",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

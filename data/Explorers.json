@@ -1,0 +1,18 @@
+{
+    "id": 104138684,
+    "name": "Explorers",
+    "author": "MathisCreator",
+    "creators": ["MathisCreator"],
+    "verifier": "MathisCreator",
+    "verification": "https://youtu.be/UPQARjVWB34",
+    "percentToQualify": "100",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "carters3421",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 180
+        }
+    ]
+}

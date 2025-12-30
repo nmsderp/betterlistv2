@@ -1,0 +1,24 @@
+{
+    "id": 60887211,
+    "name": "Ultra Violence",
+    "author": "Xender Game",
+    "creators": ["Xender Game"],
+    "verifier": "Xender Game",
+    "verification": "https://youtu.be/tL2X3Fy0BUQ",
+    "percentToQualify": "100",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "plungebot",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

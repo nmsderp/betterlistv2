@@ -1,0 +1,18 @@
+{
+    "id": 38005686,
+    "name": "I Can't Fix You",
+    "author": "IronIngot",
+    "creators": ["IronIngot"],
+    "verifier": "IronIngot",
+    "verification": "https://youtu.be/0jS9vNdx39Q",
+    "percentToQualify": "100",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

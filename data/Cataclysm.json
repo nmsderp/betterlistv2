@@ -1,0 +1,24 @@
+{
+    "id": 3979721,
+    "name": "Cataclysm",
+    "author": "Riot",
+    "creators": ["Riot"],
+    "verifier": "Riot",
+    "verification": "https://www.youtube.com/watch?v=2Q0CYSDFpKk",
+    "percentToQualify": "50",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "GDSilver",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

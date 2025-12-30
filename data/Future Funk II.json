@@ -1,0 +1,24 @@
+{
+    "id": 59626284,
+    "name": "Future Funk II",
+    "author": "JonathanGD",
+    "creators": ["JonathanGD"],
+    "verifier": "mbed",
+    "verification": "https://youtu.be/3Kx3ZYBv8Wk",
+    "percentToQualify": "100",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "plungebot",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}

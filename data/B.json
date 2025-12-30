@@ -1,0 +1,30 @@
+{
+    "id": 34085027,
+    "name": "B",
+    "author": "MOTLEYORC",
+    "creators": ["MOTLEYORC"],
+    "verifier": "MOTLEYORC",
+    "verification": "https://www.youtube.com/watch?v=ohKPqGxotao",
+    "percentToQualify": "100",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "carters3421",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 180
+        },
+        {
+            "user": "plungebot",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 180
+        },
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
