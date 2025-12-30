@@ -1,0 +1,31 @@
+
+{
+    "challenge": true,
+    "id": 96461120,
+    "name": "old zick 11",
+    "publisher": "noxvera",
+    "creators": ["noxvera"],
+    "verifier": "jamalmurray",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://youtu.be/ATlDa6uRnLg"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "742681",
+    "records": [
+        {
+            "user": "syberchase",
+            "link": "https://youtu.be/EVQYMU-rJbs",
+            "percent": 100,
+            "hz": 180
+        },
+        {
+            "user": "noxvera",
+            "link": "#",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

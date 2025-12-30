@@ -1,0 +1,24 @@
+{
+    "challenge": true,
+    "id": 119064680,
+    "name": "geraldo",
+    "publisher": "syberchase",
+    "creators": ["syberchase", "noxvera"],
+    "verifier": "syberchase",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://www.youtu.be/IO4pWJW1tLI"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "default",
+    "records": [
+            {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/SQ7qO0aX-2o",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

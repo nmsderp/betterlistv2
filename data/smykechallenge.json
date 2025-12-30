@@ -1,0 +1,36 @@
+{
+    "challenge": true,
+    "id": 75870234,
+    "name": "smyke challenge",
+    "publisher": "noxvera",
+    "creators": [],
+    "verifier": "galoche",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://www.youtu.be/b5CTvuncjww"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "33326",
+    "records": [
+        {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/a9kOqImuR7A",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "syberchase",
+            "link": "put video link later",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "noxvera",
+            "link": "put video link later",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

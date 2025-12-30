@@ -1,0 +1,100 @@
+.nav {
+    display: flex;
+    column-gap: 2rem;
+    justify-content: flex-start;
+}
+.nav__tab {
+    padding-top: 4px;
+    padding-inline: 0.4rem;
+    border-bottom: 4px solid transparent;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    transition: border-color 300ms ease;
+}
+.nav__tab.router-link-active,
+.nav__tab:hover {
+    border-color: var(--color-on-primary);
+}
+.nav__actions {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: -10rem;
+}
+.nav__icon {
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 300ms ease;
+}
+.nav__icon:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.nav__icon img {
+    height: 1.5rem;
+}
+.nav__cta {
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: var(--color-on-primary);
+    color: var(--color-primary);
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 0.5rem 0 rgba(200, 200, 200, 0.35);
+    transition: transform 300ms ease;
+}
+.nav__cta:hover:not(:active) {
+    transform: translateY(-2px);
+}
+header .nav {
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+.logo .list-icon {
+    height: 2rem;
+}
+
+@media screen and (max-width: 768px),
+(max-width: 1024px) and (min-resolution: 2dppx),
+(min-width: 768px) and (max-width: 1366px) and (min-resolution: 2dppx) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5rem 1rem;
+        height: auto;
+    }
+    header .logo {
+        margin: 0 0 0.5rem 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    .nav__tab {
+        flex-grow: 1;
+        flex-basis: max-content;
+        padding-inline: 0.5rem;
+    }
+    .nav__actions {
+        margin-right: 0;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}

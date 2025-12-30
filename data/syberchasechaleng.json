@@ -1,0 +1,25 @@
+{
+    "challenge": true,
+    "id": 91968966,
+    "name": "syberchase chaleng",
+    "description": "top 1 verification video oat",
+    "publisher": "noxvera",
+    "creators": ["noxvera", "RobTop"],
+    "verifier": "syberchase",
+    "videos": [
+        {
+            "name": "showcase",
+            "url": "https://www.youtu.be/t_Wao3f2joo"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "default",
+    "records": [
+        {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/mdZJHyCqXLY",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

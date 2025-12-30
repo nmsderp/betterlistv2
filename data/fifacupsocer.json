@@ -1,0 +1,23 @@
+{
+    "id": "109215759",
+    "name": "fifa cup SOCER",
+    "publisher": "noxvera",
+    "creators": ["noxvera"],
+    "verifier": "syberchase",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://youtu.be/04vif7Vau9s"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "default",
+    "records": [
+        {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/_3t6hAYK9dM",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

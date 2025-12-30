@@ -1,0 +1,38 @@
+{
+    "challenge": true,
+    "id": 92873017,
+    "name": "zick 5",
+    "description": "Random part I took from luminoso by Viprin, with added random invisible spikes everywhere.",
+    "publisher": "noxvera",
+    "creators": ["noxvera","Viprin"],
+    "verifier": "noxvera",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "*"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "default",
+    "records": [
+            {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/4KQFr5cxux8",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "galoche",
+            "link": "https://drive.google.com/file/d/16NRx669LDj7nOc0pApesMvH5Fkw_GQ4N/view?usp=sharing",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true
+        },
+        {
+            "user": "syberchase",
+            "link": "#",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

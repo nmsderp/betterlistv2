@@ -1,0 +1,17 @@
+{
+    "id": "lost",
+    "name": "microsoft car tesla",
+    "publisher": "N/A",
+    "creators": ["noxvera", "syberchase"],
+    "verifier": "N/A",
+    "videos": [
+        {
+            "name": "verification?",
+            "url": "https://youtu.be/FF3_9AXbGGg"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "default",
+    "records": [
+    ]
+}

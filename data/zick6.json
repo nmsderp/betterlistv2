@@ -1,0 +1,30 @@
+{
+    "challenge": true,
+    "id": 93269184,
+    "name": "zick 6",
+    "publisher": "noxvera",
+    "creators": [],
+    "verifier": "noxvera",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://youtu.be/qDuu8TQcZsE"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "music library",
+    "records": [
+        {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/OQUEwI_IewU",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "syberchase",
+            "link": "https://www.youtu.be/9Bp8Px7ryEs",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

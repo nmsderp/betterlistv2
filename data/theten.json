@@ -1,0 +1,17 @@
+{
+    "id": "122884041",
+    "name": "the ten",
+    "publisher": "noxvera",
+    "creators": ["noxvera", "OctorElZ"],
+    "verifier": "N/A",
+    "videos": [
+        {
+            "name": "showcase",
+            "url": "https://youtu.be/XpDFaFeZziY"
+        }
+    ],
+    "percentToQualify": "3",
+    "song": "607493",
+    "records": [
+    ]
+}

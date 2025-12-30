@@ -1,0 +1,18 @@
+{
+    "challenge": true,
+    "id": "121879207",
+    "name": "zingh zatterbutt",
+    "publisher": "noxvera",
+    "creators": ["noxvera"],
+    "verifier": "syberchase",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://youtu.be/YE-pry9LvCg?t=833"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "2457",
+    "records": [
+    ]
+}

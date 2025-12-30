@@ -1,0 +1,23 @@
+{
+    "challenge": true,
+    "id": 95449215,
+    "name": "zick 9",
+    "description": "I originally wanted to rebuild and nerf this to around zick 11 difficulty (since the old version was just an ultrabuffed version of syberchase chaleng), but I accidentally made the base gameplay way too hard and decided to just keep it. (silly me!)",
+    "publisher": "noxvera",
+    "creators": ["noxvera"],
+    "verifier": "N/A",
+    "videos": [
+        {
+            "name": "showcase",
+            "url": "https://youtu.be/Am2vqGgaBtc"
+        },
+            {
+            "name": "old version (showcase)",
+            "url": "https://youtu.be/pTyWz8fHL38"
+        }
+    ],
+    "percentToQualify": "22",
+    "song": "590533",
+    "records": [
+    ]
+}

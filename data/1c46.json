@@ -1,0 +1,26 @@
+{
+    "challenge": true,
+    "id": "123005906",
+    "name": "1c46",
+    "description": "You must play the map yourself to uncover the lore behind this map................",
+    "publisher": "1kV",
+    "creators": ["noxvera"],
+    "verifier": "N/A",
+    "videos": [
+        {
+            "name": "showcase",
+            "url": "https://youtu.be/nxAIWM3phlo"
+        }
+    ],
+    "percentToQualify": "82",
+    "song": "NONG",
+    "nonglink": "https://songfilehub.com/home?name=cobwebs",
+    "records": [
+        {
+            "user": "noxvera",
+            "link": "#",
+            "percent": 82,
+            "hz": 240
+        }
+    ]
+}

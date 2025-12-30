@@ -1,0 +1,129 @@
+// Number of decimal digits to round to
+const scale = 2;
+
+/*
+    * Calculate the score awarded when having a certain percentage on a list level
+    * @param {Number} rank Position on the list
+    * @param {Number} percent Percentage of completion
+    * @param {Number} minPercent Minimum percentage required
+    * @returns {Number}
+*/
+export function score(rank, percent, minPercent) {
+    if (rank > 200) {
+        return 0;
+    }
+    if (rank > 100 && percent < 100) {
+        return 0;
+    }
+    if (percent < minPercent){
+        return 0;
+    }
+
+    // formula v1
+    /*
+    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
+        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+    */
+   
+    // formula v2 (original)
+    /*
+    let score = (-24.9975*Math.pow(rank-1, 0.4) + 200) *
+        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+    score = Math.max(0, score);
+
+    if (percent != 100) {
+        return round(score - score / 3);
+    }
+
+    return Math.max(round(score), 0);
+    */
+
+    // formula v3 (broken)
+    /*
+    let score = (-80*Math.pow(rank-1, 0.58) + 1000) *
+        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+    score = Math.max(0, score);
+
+    if (percent != 100) {
+        return round(score - score / 3.5);
+    }
+
+    return Math.max(round(score), 0);
+    */
+
+    // formula v4
+    let norm = Math.min(Math.max((percent - (minPercent - 1)) / (100 - (minPercent - 1)), 0), 1);
+    let score = 1000 * Math.exp(-0.04 * (rank - 1)) * Math.pow(norm, 1.2);
+    score = Math.max(1, score);
+
+    if (percent !== 100) {
+        score -= score / 3.5;
+    }
+
+    return Math.round(score * 100) / 100;
+}
+
+export function round(num) {
+    if (!('' + num).includes('e')) {
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+    } else {
+        var arr = ('' + num).split('e');
+        var sig = '';
+        if (+arr[1] + scale > 0) {
+            sig = '+';
+        }
+        return +(
+            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            'e-' +
+            scale
+        );
+    }
+}
+
+/*
+    * Numbers of decimal digits to round to
+    (-0.909091 * (rank - 1) + 100.909091)
+    100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50
+    ((percent - (minPercent - 1)) / (100 - (minPercent - 1))
+    -0.939597 * (rank)) + 150.939597
+    
+    // const scale = 3;
+
+    * Calculate the score awarded when having a certain percentage on a list level
+    * @param {Number} rank Position on the list
+    * @param {Number} percent Percentage of completion
+    * @param {Number} minPercent Minimum percentage required
+    * @returns {Number}
+
+export function score(rank, percent, minPercent) {
+    if (rank > 150) {
+        return 0;
+    }
+
+    let score = ((-0.22371358 * (rank)) + 50.22371358) * ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+    score = Math.max(0, score);
+
+    if (percent != 100) {
+        return round(score - score / 3);
+    }
+
+    return round(score);
+}
+
+export function round(num) {
+    if (!('' + num).includes('e')) {
+        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
+    } else {
+        var arr = ('' + num).split('e');
+        var sig = '';
+        if (+arr[1] + scale > 0) {
+            sig = '+';
+        }
+        return +(
+            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            'e-' +
+            scale
+        );
+    }
+}
+*/

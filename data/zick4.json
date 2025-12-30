@@ -1,0 +1,31 @@
+{
+    "challenge": true,
+    "id": 92783871,
+    "name": "zick 4",
+    "description": "Starting with this map I forgot to capitalize \"zick\"..",
+    "publisher": "noxvera",
+    "creators": ["noxvera"],
+    "verifier": "noxvera",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://youtu.be/I7RFDaxRr8g"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "473413",
+    "records": [
+            {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/WijjD78srXM",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "syberchase",
+            "link": "https://www.youtu.be/A7P5OWZ-LqI",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "challenge": true,
+    "id": 116927642,
+    "name": "a",
+    "description": "I made this in like 5 minutes while on @jamalmurray's account since I didn't want to leave a \"noxvera was here \" type message.",
+    "publisher": "jamalmurray",
+    "creators": ["noxvera"],
+    "verifier": "jamalmurray",
+    "videos": [
+        {
+            "name": "showcase",
+            "url": "https://youtu.be/cPvjHi4eNNY"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "161504",
+    "records": [
+        {
+            "user": "syberchase",
+            "link": "#",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

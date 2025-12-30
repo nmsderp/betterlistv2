@@ -1,0 +1,24 @@
+{
+    "challenge": true,
+    "id": "77542357",
+    "name": "syberchase challenge",
+    "publisher": "noxvera",
+    "creators": ["noxvera"],
+    "verifier": "syberchase",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "#"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "33326",
+    "records": [
+        {
+            "user": "jamalmurray",
+            "link": "https://youtu.be/JynwpJkS5v0",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

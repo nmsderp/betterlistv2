@@ -1,0 +1,24 @@
+{
+    "challenge": true,
+    "id": "123005818 (88886665)",
+    "name": "wenis and ballsk",
+    "publisher": "1kV",
+    "creators": ["syberchase", "noxvera"],
+    "verifier": "noxvera",
+    "videos": [
+        {
+            "name": "verification",
+            "url": "https://youtu.be/JCEVuzOlY44"
+        }
+    ],
+    "percentToQualify": "100",
+    "song": "999997",
+    "records": [
+        {
+            "user": "syberchase",
+            "link": "#",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
