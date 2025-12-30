@@ -1,0 +1,18 @@
+{
+    "id": "0",
+    "name": "Chemical Travel",
+    "description": "buns collab",
+    "publisher": "nmsderp",
+    "creators": ["nmsderp", "evillabraen"],
+    "verifier": "???",
+    "videos": [
+        {
+            "name": "showcase",
+            "url": "https://www.youtube.com/watch?v=KtVqI2IL8Aw"
+        }
+    ],
+    "percentToQualify": "111",
+    "song": "6969696",
+    "records": [
+    ]
+}
