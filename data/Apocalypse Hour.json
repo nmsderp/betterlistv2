@@ -1,0 +1,18 @@
+{
+    "id": 83217028,
+    "name": "Apocalypse Hour",
+    "author": "Hyenaedon",
+    "creators": ["Hyenaedon"],
+    "verifier": "Hyenaedon",
+    "verification": "https://youtu.be/Dnauu3y6Vi8?list=RDDnauu3y6Vi8",
+    "percentToQualify": "100",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
