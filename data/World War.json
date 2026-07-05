@@ -1,0 +1,18 @@
+{
+    "id": 105099865,
+    "name": "World War",
+    "author": "2003devin",
+    "creators": ["2003devin"],
+    "verifier": "SmackinTheKraken",
+    "verification": "https://www.youtube.com/watch?v=Eav0sTWZ24E",
+    "percentToQualify": "50",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "plungebot",
+            "link": "https://www.youtube.com/watch?v=d8HHsLRyZX8",
+            "percent": 100,
+            "hz": "240"
+        }
+    ]
+}
