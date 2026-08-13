@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/watch?v=NpEaa2P7qZI",
             "percent": 100,
             "hz": "CBF/180"
+        },
+        {
+            "user": "nmsderp",
+            "link": "https://www.example.com",
+            "percent": 100,
+            "hz": "CBF/240"
         }
     ]
 }
