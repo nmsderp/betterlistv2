@@ -1,0 +1,18 @@
+{
+    "id": 20761188,
+    "name": "Allegiance",
+    "author": "nikroplays",
+    "creators": ["nikroplays"],
+    "verifier": "xendlevel",
+    "verification": "https://youtu.be/wzutYMNXr-Y?list=RDwzutYMNXr-Y",
+    "percentToQualify": "65",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=cgMIfdhZWXQ",
+            "percent": 100,
+            "hz": "CBF/240hz"
+        }
+    ]
+}
