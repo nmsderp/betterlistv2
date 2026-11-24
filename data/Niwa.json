@@ -1,0 +1,24 @@
+{
+    "id": 61079355,
+    "name": "Niwa",
+    "author": "Teno",
+    "creators": ["Teno"],
+    "verifier": "Nicor77",
+    "verification": "https://youtu.be/vegDZr7jh-M",
+    "percentToQualify": "75",
+    "password": "yabutt",
+    "records": [
+        {
+            "user": "plungebot",
+            "link": "https://www.youtube.com/watch?v=bLJIR2QMatY",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "nmsderp",
+            "link": "https://www.youtube.com/watch?v=wDchsz8nmbo&pp=ygUNZXhhbXBsZSB2aWRlbw%3D%3D",
+            "percent": 80,
+            "hz": 240
+        }
+    ]
+}
